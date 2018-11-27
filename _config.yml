@@ -6,21 +6,21 @@ menu:
   tags: tags
   about: about
   search: search
-  
 
-# site title 
+
+# site title
 # 网站的标题
 # title为空时 Hexo/_config.yml 配置有效
-title: HEXO-THEME-NAYO
+title:
 
 # author profile
 # 图片放置于主题目录下: source/imgaes/
 # 作者信息
 # author为空时 Hexo/_config.yml 配置有效
-profile: 
-  author: Lemon
+profile:
+  author:
   logo: /images/logo.png
-  avatar: /images/header.jpg  
+  # avatar: /images/header.jpg
 
 # site favicon
 # 图片放置于主题目录下: source/imgaes/
@@ -29,8 +29,8 @@ favicon: /images/favicon.png
 
 # social link
 # 更多链接
-social:  
-  Github: https://github.com/Lemonreds/hexo-theme-nayo 
+social:
+  Github: https://github.com/Lemonreds/hexo-theme-nayo
   Weibo: https://weibo.com/liminghong2
 #  Zhihu:
   Facebook:
@@ -38,15 +38,15 @@ social:
   Instagram:
 #  LinkedIn:
   Neteasemusic:
-#  Csdn: 
+#  Csdn:
 
 
-# site analytics 
+# site analytics
 # 站点访问统计
 # 填入百度/谷歌的[ analytics id ]
 baidu_analytics:
- #636802045446222199ae541e32c8133e 
-google_analytics: 
+ #636802045446222199ae541e32c8133e
+google_analytics:
 
 # comment
 # 评论系统
@@ -59,10 +59,11 @@ disqus:
 
 # valine(https://github.com/xCss/Valine)
 # 创建 leancloud 应用 获取 id|key 填入即可
-leancloud:  
-  comment: false
-  app_id: cFM0eCo0CQ9xmBXmHi1eltol-gzGzoHsz
-  app_key: oh9tizsnvV2vNvWgqEvoNtQO
+leancloud:
+  comment: true
+  app_id: 1v0q7VgJCHORWRgNXANmcf3S-gzGzoHsz
+  app_key: FDUus7tcTNEb982tzwGdBHwt
+  placeholder: 评论内容
 
 
 # 支持的分享类型
@@ -96,13 +97,13 @@ mob_share:
 toc:
   false
 
-# mathjax 
+# mathjax
 # 渲染LateX公式
-# 全局开启后,在你需要显示LateX公式的文章头部增加配置 
+# 全局开启后,在你需要显示LateX公式的文章头部增加配置
 # mathjax: true (参见下方说明)
 mathjax:
   enable: true
-  
+
 # 在你的文章头部支持的配置有:
   # example:
   # ---
@@ -129,7 +130,7 @@ mathjax:
 # footer
 # 网站底部信息
 footer:
-  author: Lemon
+  author: 摄影学习笔记
   since: 2018
 
 
