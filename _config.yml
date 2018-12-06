@@ -20,7 +20,7 @@ title:
 profile:
   author:
   logo: /images/logo.png
-  # avatar: /images/header.jpg
+#  avatar: /images/header.jpg
 
 # site favicon
 # 图片放置于主题目录下: source/imgaes/
@@ -29,16 +29,13 @@ favicon: /images/favicon.png
 
 # social link
 # 更多链接
-social:
-  Github: https://github.com/Lemonreds/hexo-theme-nayo
-  Weibo: https://weibo.com/liminghong2
-#  Zhihu:
-  Facebook:
-#  Twitter:
-  Instagram:
-#  LinkedIn:
-  Neteasemusic:
-#  Csdn:
+#social:
+
+ # Weibo: https://weibo.com/u/6289263372
+ # Weixin: 公众号
+
+
+
 
 
 # site analytics
@@ -81,7 +78,7 @@ share_item:
 # 捐赠功能
 # 图片放置于主题目录下: source/imgaes/
 donate:
-  enable: true
+  enable: false
   word: 世界美好 你也是
   wechat: /images/donate1.png
   alipay: /images/donate2.png
@@ -131,7 +128,7 @@ mathjax:
 # 网站底部信息
 footer:
   author: 摄影学习笔记
-  since: 2018
+  since: 2018/11
 
 
 # theme version
