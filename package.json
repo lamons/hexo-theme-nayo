@@ -32,5 +32,8 @@
     "style-loader": "^0.20.1",
     "stylus-loader": "^3.0.1",
     "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "stylus": "^0.54.5"
   }
 }
